@@ -18,11 +18,19 @@ header{
   height: 80px;
   margin-top: -1.3rem;
 }
-#search{
-  border-radius: 0.5rem;
-  height: 2rem;
-  padding-left: 1rem;
-  width: 50%;
+.search input{
+  padding: 0.5rem 0.5rem;
+  outline: none;
+  border-radius: 0.5rem 0 0 0.5rem;
+  
+}
+.search button{
+  padding: 0.5rem 0.5rem;
+  margin-left: -4px;
+  border-radius: 0 0.5rem 0.5rem 0;
+  outline: none;
+  
+
 }
 i{
   margin-right: 0.2rem;
@@ -35,9 +43,11 @@ i{
 }
 .containerNav a{
   text-decoration: none;
-  padding: 1rem;
+  padding: 0.9rem 0.5rem;
   color: whitesmoke;
 }
 .containerNav a:hover{
   background-color: brown;
+  border-radius: 0.3rem;
+  
 }
