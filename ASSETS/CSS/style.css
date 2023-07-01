@@ -2,9 +2,23 @@
   margin: 0;
   padding: 0;
 }
+.topHeader{
+  display:flex ;
+  justify-content: center;
+}
+.topHeader a{
+  text-decoration: none;
+}
+.topHeader span{
+  color: #e40013
+  ;
+}
+.topHeader h1{
+  color: black;
+}
 header{
   background-color: #e40013;
-  padding: 2rem;
+  padding: 2rem 2rem 0.9rem 2rem;
 }
 .containerHeader{
   display: flex;
@@ -13,16 +27,12 @@ header{
   color: whitesmoke;
   
 }
-.containerHeader a img{
-  width: 150px;
-  height: 80px;
-  margin-top: -1.3rem;
-  border: 2px solid orange;
-}
 .search input{
   padding: 0.5rem 0.5rem;
+  margin-bottom: 1.5rem;
   outline: none;
   border-radius: 0.5rem 0 0 0.5rem;
+  width: max-content;
   
 }
 .search button{
@@ -30,18 +40,22 @@ header{
   margin-left: -4px;
   border-radius: 0 0.5rem 0.5rem 0;
   outline: none;
-  
-
 }
 i{
   margin-right: 0.2rem;
 }
+.containerImg{
+  width: 10%;
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-around;
+}
 .containerNav{
   display: flex;
-  float: right;
+  justify-content: flex-end;
   list-style: none;
-  
 }
+
 .containerNav a{
   text-decoration: none;
   padding: 0.9rem 0.5rem;
@@ -54,7 +68,6 @@ i{
 }
 /*-----navigation-----*/
 nav{
-  
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 0.5rem;
 }
